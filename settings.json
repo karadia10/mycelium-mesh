@@ -1,0 +1,13 @@
+{
+  "go.toolsManagement.autoUpdate": true,
+  "go.testFlags": [
+    "-v"
+  ],
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "bin": true,
+    "out": true,
+    "run": true,
+    "repo": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "Spore",
+  "name": "billing",
+  "version": "v0.1.0",
+  "command": "billing",
+  "args": [],
+  "env": {
+    "GREETING": "Hello from billing service"
+  },
+  "provides": ["http"],
+  "nutrients": {
+    "cpu_milli": 200,
+    "memory_mb": 128
+  },
+  "slo": {
+    "p99_budget_ms": 300
+  },
+  "security": {
+    "lsm_profile": "demo",
+    "read_only_fs": false
+  }
+}

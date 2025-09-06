@@ -1,0 +1,28 @@
+{
+  "kind": "Spore",
+  "name": "billing",
+  "version": "v0.1.0",
+  "command": "billing",
+  "args": [],
+  "env": {
+    "GREETING": "Hello from billing service"
+  },
+  "provides": [
+    "http"
+  ],
+  "nutrients": {
+    "cpu_milli": 200,
+    "memory_mb": 128
+  },
+  "slo": {
+    "p99_budget_ms": 300
+  },
+  "security": {
+    "lsm_profile": "demo",
+    "read_only_fs": false
+  },
+  "created_at": "2025-09-06T11:20:53.481615+05:30",
+  "binary_sha256": "3b969db3b67cd1bb6beb50a9b43e80eaeb79bc9aa4c5f4c34be3cb309a355acf",
+  "signature": "H+cWKoIG4f73p3zINeNDV1N3FajjqxlKf5K0BjF4cOyrRbn27+icV9FsdCKmFVRC5W3nYcY5a1xrDY0GCyGrBw==",
+  "public_key": "wieB6XfiABunQhwv6ZRmAs3d2UJg0u/qP8asD7S+IIY="
+}

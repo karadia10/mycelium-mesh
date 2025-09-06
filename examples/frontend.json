@@ -1,0 +1,22 @@
+{
+  "kind": "Spore",
+  "name": "frontend",
+  "version": "v0.1.0",
+  "command": "frontend",
+  "args": [],
+  "env": {
+    "GREETING": "Hello from frontend service"
+  },
+  "provides": ["http"],
+  "nutrients": {
+    "cpu_milli": 150,
+    "memory_mb": 64
+  },
+  "slo": {
+    "p99_budget_ms": 200
+  },
+  "security": {
+    "lsm_profile": "demo",
+    "read_only_fs": false
+  }
+}
